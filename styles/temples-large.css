@@ -8,6 +8,10 @@
     margin: 1rem auto;
     align-items: center;
   }
+  header {
+    display: flex;
+    justify-content: center !important;
+  }
 
   nav ul li {
     margin: 0 15px;
