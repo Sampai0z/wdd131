@@ -47,7 +47,13 @@ header {
 .attractions {
   padding: 1rem;
 }
-
+ul {
+  padding: 7px;
+}
+ul li {
+  list-style-type: none;
+  padding: 3px;
+}
 footer {
   background-color: var(--primary-color);
   color: white;
