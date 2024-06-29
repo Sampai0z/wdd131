@@ -43,6 +43,10 @@ nav a:hover {
   cursor: pointer;
 }
 
+.grid {
+  display: grid;
+}
+
 main {
   padding: 20px;
 }

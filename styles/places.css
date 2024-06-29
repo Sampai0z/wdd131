@@ -4,6 +4,11 @@
   --background-color: #002776; /* Azul da bandeira do Brasil */
   --text-color: #ffffff; /* Branco para texto */
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -22,12 +27,16 @@ header {
 
 .hero {
   text-align: center;
+
+  max-width: 840px;
+  margin: 0 auto;
 }
 
 .weather {
   padding: 1rem;
   background-color: var(--secondary-color);
   color: var(--background-color);
+  float: right;
 }
 
 .weather-details {
@@ -46,11 +55,19 @@ footer {
   padding: 1rem;
 }
 img {
-  width: 50%;
+  width: 800px;
+  height: auto;
+  position: relative;
 }
-
+.grid {
+  max-width: 840px;
+  margin: 0 auto;
+}
 @media (max-width: 600px) {
   .weather-details {
     flex-direction: column;
+  }
+  img {
+    width: 90%;
   }
 }
