@@ -43,6 +43,14 @@ nav ul li a:hover {
   color: #007bff;
 }
 
+.profile {
+  width: 40%;
+  border-radius: 50%;
+}
+.christ {
+  width: 60%;
+}
+
 .card {
   margin-top: 20px;
   padding: 20px;
