@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const card = document.createElement("div");
       card.className = "temple-card";
 
-      const name = document.createElement("h2");
+      const name = document.createElement("h1");
       name.textContent = temple.templeName;
       card.appendChild(name);
 
