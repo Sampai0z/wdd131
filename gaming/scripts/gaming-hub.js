@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Hamburger Menu
+  // Hamburger menu functionality
   const hamburger = document.getElementById("hamburger");
   const navMenu = document.querySelector("nav ul");
 
@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Function to render reviews
-
   const renderReviews = (filteredReviews) => {
     const reviewGrid = document.querySelector(".review-grid");
     if (!reviewGrid) {
@@ -38,6 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
       reviewGrid.appendChild(reviewItem);
     });
   };
+
+  // Initial render if .review-grid exists
   const reviewGrid = document.querySelector(".review-grid");
   if (reviewGrid) {
     const reviews = [
