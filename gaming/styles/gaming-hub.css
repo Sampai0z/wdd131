@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
 }
 
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -23,8 +24,8 @@ header .logo {
 nav ul {
   display: none;
   list-style: none;
-
-  gap: 1rem;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
@@ -45,6 +46,7 @@ nav ul li a {
   cursor: pointer;
 }
 
+/* Hero Section */
 .hero {
   background: url("../images/banner.webp") no-repeat center center/cover;
   height: 60vh;
@@ -124,6 +126,7 @@ nav ul li a {
   font-weight: bold;
 }
 
+/* Footer */
 footer {
   background-color: #0044cc;
   color: white;
@@ -180,6 +183,10 @@ footer {
   cursor: pointer;
 }
 
+.footer-content form button:hover {
+  background-color: #0033aa;
+}
+
 /* Reviews Section */
 .reviews-section {
   padding: 2rem;
@@ -217,6 +224,7 @@ footer {
 .review-item {
   background: white;
 }
+
 .rating-image {
   width: 100%;
 }
@@ -261,8 +269,7 @@ footer {
   margin-bottom: 0.5rem;
 }
 
-/* Contact page */
-
+/* Contact Page */
 .contact-section {
   max-width: 800px;
   margin: 20px auto;
