@@ -119,6 +119,9 @@ nav ul li a {
 .spotlight-item p {
   margin: 0.5rem 0 1rem;
 }
+.content-item img {
+  width: 40%;
+}
 
 .read-more {
   color: #00cc44;
